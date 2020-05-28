@@ -1,0 +1,19 @@
+[0;1;32m●[0m mongod.service - MongoDB Database Server
+   Loaded: loaded (/lib/systemd/system/mongod.service; disabled; vendor preset: enabled)
+   Active: [0;1;32mactive (running)[0m since Wed 2020-01-29 15:53:03 MSK; 5 days ago
+     Docs: https://docs.mongodb.org/manual
+ Main PID: 12258 (mongod)
+   Memory: 85.8M
+   CGroup: /system.slice/mongod.service
+           └─12258 /usr/bin/mongod --config /etc/mongod.conf
+
+Jan 30 15:20:11 alina-Swift-SF514-51 systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/mongod.service:10: PIDFile= references path below legacy directory /var/run/, updating /var/run/mongodb/mongod.pid → /run/mongodb/mongod.pid; please update the unit file accordingly.[0m
+Jan 30 15:20:13 alina-Swift-SF514-51 systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/mongod.service:10: PIDFile= references path below legacy directory /var/run/, updating /var/run/mongodb/mongod.pid → /run/mongodb/mongod.pid; please update the unit file accordingly.[0m
+Jan 30 15:20:18 alina-Swift-SF514-51 systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/mongod.service:10: PIDFile= references path below legacy directory /var/run/, updating /var/run/mongodb/mongod.pid → /run/mongodb/mongod.pid; please update the unit file accordingly.[0m
+Jan 30 15:20:24 alina-Swift-SF514-51 systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/mongod.service:10: PIDFile= references path below legacy directory /var/run/, updating /var/run/mongodb/mongod.pid → /run/mongodb/mongod.pid; please update the unit file accordingly.[0m
+Jan 31 19:32:41 alina-Swift-SF514-51 systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/mongod.service:10: PIDFile= references path below legacy directory /var/run/, updating /var/run/mongodb/mongod.pid → /run/mongodb/mongod.pid; please update the unit file accordingly.[0m
+Jan 31 19:32:42 alina-Swift-SF514-51 systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/mongod.service:10: PIDFile= references path below legacy directory /var/run/, updating /var/run/mongodb/mongod.pid → /run/mongodb/mongod.pid; please update the unit file accordingly.[0m
+Feb 02 14:10:58 alina-Swift-SF514-51 systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/mongod.service:10: PIDFile= references path below legacy directory /var/run/, updating /var/run/mongodb/mongod.pid → /run/mongodb/mongod.pid; please update the unit file accordingly.[0m
+Feb 02 14:10:59 alina-Swift-SF514-51 systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/mongod.service:10: PIDFile= references path below legacy directory /var/run/, updating /var/run/mongodb/mongod.pid → /run/mongodb/mongod.pid; please update the unit file accordingly.[0m
+Feb 02 14:10:59 alina-Swift-SF514-51 systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/mongod.service:10: PIDFile= references path below legacy directory /var/run/, updating /var/run/mongodb/mongod.pid → /run/mongodb/mongod.pid; please update the unit file accordingly.[0m
+Feb 02 14:11:13 alina-Swift-SF514-51 systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/mongod.service:10: PIDFile= references path below legacy directory /var/run/, updating /var/run/mongodb/mongod.pid → /run/mongodb/mongod.pid; please update the unit file accordingly.[0m
